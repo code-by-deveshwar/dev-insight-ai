@@ -120,3 +120,29 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .font-montserrat {
+    font-family: var(--font-montserrat);
+  }
+
+  .font-geist-sans {
+    font-family: var(--font-geist-sans);
+  }
+
+  .font-geist-mono {
+    font-family: var(--font-geist-mono);
+  }
+
+  .font-open-sans {
+    font-family: var(--font-open-sans);
+  }
+
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+
+  .font-space-grotesk {
+    font-family: var(--font-space-grotesk);
+  }
+}

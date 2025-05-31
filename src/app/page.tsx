@@ -1,9 +1,15 @@
-import { Button } from "@/components/ui/button"
+import HomeHero from "@/components/home/Home"
+import HowItWorks from "@/components/home/HowItWorks"
+import LiveDemo from "@/components/home/LiveDemo"
+import { AppleCardsCarouselDemo } from "@/components/home/Testimonials"
 
-export default function Home() {
+export default function ThemePreview() {
   return (
-    <div>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <HomeHero />
+      <HowItWorks />
+      <LiveDemo/>
+      {/* <AppleCardsCarouselDemo/> */}
+    </>
   )
 }
